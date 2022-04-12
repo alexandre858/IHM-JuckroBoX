@@ -1,0 +1,53 @@
+topic: ~simple()
+language: frf
+
+u:([Bonjour salut]) $SimpleWeb/Page_start=1 Bonjour, quel artiste souhaitez vous écoutez dans la liste ci-dessous. 
+
+	u1:([Johnny Hallyday "Johnny Hallyday" e:SimpleWeb/Button1]) $SimpleWeb/Page_Johnny=1 Quel musique de Johnny veux-tu parmis mes choix ? 
+		u2:([Je te promets]) $SimpleWeb/Page_Johnny_1=1 Je te promets 
+
+		u2:([Allumer le feu]) $SimpleWeb/Page_Johnny_2=1 2
+
+		u2:([Marie "La M"]) $SimpleWeb/Page_Johnny_3=1 3
+
+	u1:([Françis Cabrel e:SimpleWeb/Button2]) $SimpleWeb/Page_Françis=1 Quel musique de Françis Cabrel veux-tu parmis mes choix ? 
+		u2:([Je l'aime à mourir]) $SimpleWeb/Page_Francis_1 Je l'aime à mourir
+		u2:([Je t'aimais je t'aime je t'aimerai]) $SimpleWeb/Page_Francis_2 Je t'aimais je t'aime je t'aimerai
+		u2:([La corrida]) $SimpleWeb/Page_Francis_3 La corrida
+
+	u1:([Jean-Jacques Goldman e:SimpleWeb/Button3]) $SimpleWeb/Page_Goldman=1 Quel musique de Jean-Jacques Goldman veux-tu parmis mes choix ? 
+		u2:([Quand la musique est bonne]) ok
+		u2:([Je te donne]) ok
+		u2:([A nos actes manqués]) ok
+
+	u1:([ACDC e:SimpleWeb/Button3]) $SimpleWeb/Page_ACDC=1 Quel musique de ACDC veux-tu parmis mes choix ? 
+		u2:([Highway to Hell]) ok
+		u2:([You shook me all night long]) ok
+		u2:([T N T]) ok
+
+	u1:([Deep Purple e:SimpleWeb/Button3]) $SimpleWeb/Page_Deep_Purple=1 Quel musique de Deep Purple veux-tu parmis mes choix ? 
+		u2:([Smoke on the water]) Smoke on the water
+		u2:([Soldier of fortune]) Soldier of fortune
+		u2:([Highway Star]) Highway Star
+
+	u1:([Nirvana e:SimpleWeb/Button3]) $SimpleWeb/Page_Nirvana=1 Quel musique de Nirvana veux-tu parmis mes choix ? 
+		u2:([Come as you are]) ok
+		u2:([Something in the way]) ok
+		u2:([Smell like teen spirit]) ok
+
+	u1:([Booba e:SimpleWeb/Button3]) $SimpleWeb/Page_Booba=1 Quel musique de Booba veux-tu parmis mes choix ? 
+		u2:([113]) ok
+		u2:([Terrain]) ok
+		u2:([92i Veyron]) ok
+
+	u1:([Niska e:SimpleWeb/Button3]) $SimpleWeb/Page_Nisja=1 Quel musique de Niska veux-tu parmis mes choix ? 
+		u2:([Medellin]) ok
+		u2:([Story X]) ok
+		u2:([Réseau]) ok
+
+	u1:([Freeze Corleone e:SimpleWeb/Button3]) $SimpleWeb/Page_Freeze=1 Quel musique de Freeze Corleone veux-tu parmis mes choix ? 
+		u2:([Designer]) ok
+		u2:([Freeze Raël]) ok
+		u2:([Téléphone]) ok
+
+
