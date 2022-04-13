@@ -1,0 +1,151 @@
+topic: ~simple()
+language: frf
+
+u:([Bonjour salut]) $SimpleWeb/Page_start=1 Bonjour, quel artiste souhaitez vous écoutez dans la liste ci-dessous. 
+
+	u1:([Johnny Hallyday "Johnny Hallyday" e:SimpleWeb/Button1]) $SimpleWeb/Page_Johnny=1 Quel musique de Johnny veux-tu parmis mes choix ? 
+		u2:([Je te promets]) $SimpleWeb/Page_Johnny_1=1 Je te promets 
+
+		u2:([Allumer le feu]) $SimpleWeb/Page_Johnny_2=1 2
+
+		u2:([Marie "La M"]) $SimpleWeb/Page_Johnny_3=1 3
+
+	u1:([Françis Cabrel e:SimpleWeb/Button2]) $SimpleWeb/Page_Françis=1 Quel musique de Françis Cabrel veux-tu parmis mes choix ? 
+		u2:([Je l'aime à mourir]) $SimpleWeb/Page_Francis_1 Je l'aime à mourir
+		u2:([Je t'aimais je t'aime je t'aimerai]) $SimpleWeb/Page_Francis_2 Je t'aimais je t'aime je t'aimerai
+		u2:([La corrida]) $SimpleWeb/Page_Francis_3 La corrida
+
+	u1:([Jean-Jacques Goldman e:SimpleWeb/Button3]) $SimpleWeb/Page_Goldman=1 Quel musique de Jean-Jacques Goldman veux-tu parmis mes choix ? 
+		u2:([Quand la musique est bonne]) ok
+		u2:([Je te donne]) ok
+		u2:([A nos actes manqués]) ok
+
+	u1:([ACDC e:SimpleWeb/Button3]) $SimpleWeb/Page_ACDC=1 Quel musique de ACDC veux-tu parmis mes choix ? 
+		u2:([Highway to Hell]) ok
+		u2:([You shook me all night long]) ok
+		u2:([T N T]) ok
+
+	u1:([Deep Purple e:SimpleWeb/Button3]) $SimpleWeb/Page_Deep_Purple=1 Quel musique de Deep Purple veux-tu parmis mes choix ? 
+		u2:([Smoke on the water]) Smoke on the water
+		u2:([Soldier of fortune]) Soldier of fortune
+		u2:([Highway Star]) Highway Star
+
+	u1:([Nirvana e:SimpleWeb/Button3]) $SimpleWeb/Page_Nirvana=1 Quel musique de Nirvana veux-tu parmis mes choix ? 
+		u2:([Come as you are]) ok
+		u2:([Something in the way]) ok
+		u2:([Smell like teen spirit]) ok
+
+	u1:([Booba e:SimpleWeb/Button3]) $SimpleWeb/Page_Booba=1 Quel musique de Booba veux-tu parmis mes choix ? 
+		u2:([113]) ok
+		u2:([Terrain]) ok
+		u2:([92i Veyron]) ok
+
+	u1:([Niska e:SimpleWeb/Button3]) $SimpleWeb/Page_Nisja=1 Quel musique de Niska veux-tu parmis mes choix ? 
+		u2:([Medellin]) ok
+		u2:([Story X]) ok
+		u2:([Réseau]) ok
+
+	u1:([Freeze Corleone e:SimpleWeb/Button3]) $SimpleWeb/Page_Freeze=1 Quel musique de Freeze Corleone veux-tu parmis mes choix ? 
+		u2:([Designer]) ok
+		u2:([Freeze Raël]) ok
+		u2:([Téléphone]) ok
+
+u:([Tendances e:SimpleWeb/Button3]) $SimpleWeb/trending=1  ok voici les tendences
+
+	u1:([Je te promets]) $SimpleWeb/Page_Johnny_1=1 Je te promets 
+
+	u1:([Allumer le feu]) $SimpleWeb/Page_Johnny_2=1 2
+
+	u1:([Marie "La M"]) $SimpleWeb/Page_Johnny_3=1 3
+
+u:([Françis Cabrel e:SimpleWeb/Button2]) $SimpleWeb/Page_Françis=1 Quel musique de Françis Cabrel veux-tu parmis mes choix ? 
+
+	u1:([Je l'aime à mourir]) $SimpleWeb/Page_Francis_1 Je l'aime à mourir
+
+	u1:([Je t'aimais je t'aime je t'aimerai]) $SimpleWeb/Page_Francis_2 Je t'aimais je t'aime je t'aimerai
+
+	u1:([La corrida]) $SimpleWeb/Page_Francis_3 La corrida
+
+u:([Jean-Jacques Goldman e:SimpleWeb/Button3]) $SimpleWeb/Page_Goldman=1 Quel musique de Jean-Jacques Goldman veux-tu parmis mes choix ? 
+
+	u1:([Quand la musique est bonne]) ok
+
+	u1:([Je te donne]) ok
+
+	u1:([A nos actes manqués]) ok
+
+u:([ACDC e:SimpleWeb/Button3]) $SimpleWeb/Page_ACDC=1 Quel musique de ACDC veux-tu parmis mes choix ? 
+
+	u1:([Highway to Hell]) ok
+
+	u1:([You shook me all night long]) ok
+
+	u1:([T N T]) ok
+
+u:([Deep Purple e:SimpleWeb/Button3]) $SimpleWeb/Page_Deep_Purple=1 Quel musique de Deep Purple veux-tu parmis mes choix ? 
+
+	u1:([Smoke on the water]) Smoke on the water
+
+	u1:([Soldier of fortune]) Soldier of fortune
+
+	u1:([Highway Star]) Highway Star
+
+u:([Nirvana e:SimpleWeb/Button3]) $SimpleWeb/Page_Nirvana=1 Quel musique de Nirvana veux-tu parmis mes choix ? 
+
+	u1:([Come as you are]) ok
+
+	u1:([Something in the way]) ok
+
+	u1:([Smell like teen spirit]) ok
+
+u:([Booba e:SimpleWeb/Button3]) $SimpleWeb/Page_Booba=1 Quel musique de Booba veux-tu parmis mes choix ? 
+
+	u1:([113]) ok
+
+	u1:([Terrain]) ok
+
+	u1:([92i Veyron]) ok
+
+u:([Niska e:SimpleWeb/Button3]) $SimpleWeb/Page_Nisja=1 Quel musique de Niska veux-tu parmis mes choix ? 
+
+	u1:([Medellin]) ok
+
+	u1:([Story X]) ok
+
+	u1:([Réseau]) ok
+
+u:([Freeze Corleone e:SimpleWeb/Button3]) $SimpleWeb/Page_Freeze=1 Quel musique de Freeze Corleone veux-tu parmis mes choix ? 
+
+	u1:([Designer]) ok
+
+	u1:([Freeze Raël]) ok
+
+	u1:([Téléphone]) ok
+
+u:([Je te promets]) $SimpleWeb/Page_Johnny_1=1 Je te promets 
+u:([Allumer le feu]) $SimpleWeb/Page_Johnny_2=1 2
+u:([Marie "La M"]) $SimpleWeb/Page_Johnny_3=1 3
+u:([Je l'aime à mourir]) $SimpleWeb/Page_Francis_1 Je l'aime à mourir
+u:([Je t'aimais je t'aime je t'aimerai]) $SimpleWeb/Page_Francis_2 Je t'aimais je t'aime je t'aimerai
+u:([La corrida]) $SimpleWeb/Page_Francis_3 La corrida
+u:([Quand la musique est bonne]) ok
+u:([Je te donne]) ok
+u:([A nos actes manqués]) ok
+u:([Highway to Hell]) ok
+u:([You shook me all night long]) ok
+u:([T N T]) ok
+u:([Smoke on the water]) Smoke on the water
+u:([Soldier of fortune]) Soldier of fortune
+u:([Highway Star]) Highway Star
+u:([Come as you are]) ok
+u:([Something in the way]) ok
+u:([Smell like teen spirit]) ok
+u:([113]) ok
+u:([Terrain]) ok
+u:([92i Veyron]) ok
+u:([Medellin]) ok
+u:([Story X]) ok
+u:([Réseau]) ok
+u:([Designer]) ok
+u:([Freeze Raël]) ok
+u:([Téléphone]) ok
